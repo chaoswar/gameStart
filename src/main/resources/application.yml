@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  error:
+    path: /404
+  servlet:
+    context-path: /
+    application-display-name: gamestart
+
+
+
+
+spring:
+  profiles:
+    active: dev
+#  开发设置为false
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    suffix: .html
